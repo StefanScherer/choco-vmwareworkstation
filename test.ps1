@@ -29,6 +29,6 @@ if ($zip.Entries.Count -ne 5) {
 $zip.Dispose()
 
 "TEST: Installation of package should work"
-. choco install -y vmwareworkstation $options -source . -version $version
+. choco install -y vmwareworkstation -source . -version $version
 
 "TEST: Finished"
