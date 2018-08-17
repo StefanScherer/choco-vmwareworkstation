@@ -2,6 +2,7 @@
 
 [![Latest version released](https://img.shields.io/chocolatey/v/vmwareworkstation.svg)](https://chocolatey.org/packages/vmwareworkstation)
 [![Package downloads count](https://img.shields.io/chocolatey/dt/vmwareworkstation.svg)](https://chocolatey.org/packages/vmwareworkstation)
+[![Build status](https://ci.appveyor.com/api/projects/status/nkof4hle90wmy3ok/branch/master?svg=true)](https://ci.appveyor.com/project/StefanScherer/choco-vmwareworkstation/branch/master)
 
 Chocolatey package for VMware Workstation 14.x.
 
