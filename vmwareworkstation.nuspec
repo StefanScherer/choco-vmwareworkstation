@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>vmwareworkstation</id>
+    <version>14.1.2</version>
+    <title>VMware Workstation</title>
+    <authors>VMware, Inc.</authors>
+    <owners>Stefan Scherer</owners>
+    <licenseUrl>https://www.vmware.com/download/eula/universal_eula.html</licenseUrl>
+    <projectUrl>https://www.vmware.com/products/workstation/</projectUrl>
+    <iconUrl>https://upload.wikimedia.org/wikipedia/commons/6/62/VMware_Workstation_version_8.0_icon.png</iconUrl>
+    <packageSourceUrl>https://github.com/StefanScherer/chocolatey-packages</packageSourceUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>VMware Workstation enables technical professionals to develop, test, demonstrate, and deploy software by running multiple x86-based Windows, Linux, and other operating systems simultaneously on the same PC.</description>
+    <summary>VMware Workstation - Desktop virtualization software</summary>
+    <releaseNotes>https://docs.vmware.com/en/VMware-Workstation-Pro/14/rn/workstation-1412-release-notes.html</releaseNotes>
+    <copyright>Copyright © 2015 VMware, Inc. All rights reserved.</copyright>
+    <tags>vmware workstation virtual machine virtualization</tags>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
