@@ -1,8 +1,8 @@
 $packageName = 'vmwareworkstation'
 $installerType = 'exe'
-$url = 'https://download3.vmware.com/software/wkst/file/VMware-workstation-full-14.1.3-9474260.exe'
+$url = 'https://download3.vmware.com/software/wkst/file/VMware-workstation-full-15.0.0-10134415.exe'
 $url64 = $url
-$checksum = 'a33e53e918ae24617660d4bc72c427c5ddd8fcc8b0038b0f58b70c151b24dd07'
+$checksum = '409598a8ba29119b0aa4856f3486b4e3457e2a19098056f9ce500f02834bff9e'
 $checksum64 = $checksum
 $checksumType = 'sha256'
 $silentArgs = '/s /v/qn EULAS_AGREED=1'
