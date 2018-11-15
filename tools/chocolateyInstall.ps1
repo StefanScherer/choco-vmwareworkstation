@@ -8,4 +8,4 @@ $checksumType = 'sha256'
 $silentArgs = '/s /v/qn EULAS_AGREED=1'
 $validExitCodes = @(0)
 
-Install-ChocolateyPackaggie "$packageName" "$installerType" "$silentArgs" "$url" "$url64"  -validExitCodes $validExitCodes -checksum $checksum -checksumType $checksumType -checksum64 $checksum64
+Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url" "$url64"  -validExitCodes $validExitCodes -checksum $checksum -checksumType $checksumType -checksum64 $checksum64
