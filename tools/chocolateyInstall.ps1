@@ -7,6 +7,6 @@ $packageArgs = @{
   checksum               = 'e1bae491a1ce559c89b3b836197cddf41e675ba5acf55aa16e86f151c5ee5bca'
   checksumType           = 'sha256'
   silentArgs             = '/s /v/qn EULAS_AGREED=1 AUTOSOFTWAREUPDATE=0 DATACOLLECTION=0 ADDLOCAL=ALL REBOOT=ReallySuppress'
-  validExitCodes         = @(0)
+  validExitCodes         = @(0, 3010)
 }
 Install-ChocolateyPackage @packageArgs
