@@ -23,12 +23,15 @@ Add-Type -assembly "system.io.compression.filesystem"
 $zip = [IO.Compression.ZipFile]::OpenRead("$pwd\vmwareworkstation.$version.nupkg")
 # Write-Host $zip.Entries.FullName
 Write-Host $zip.Entries.Count
-if ($zip.Entries.Count -ne 5) {
+if ($zip.Entries.Count -ne 6) {
   Write-Error "FAIL: Wrong count in nupkg!"
 }
 $zip.Dispose()
 
 "TEST: Installation of package should work"
 . choco install -y vmwareworkstation -source . -version $version
+
+"TEST: Uninstallation of package should work"
+. choco install -y vmwareworkstation -source .
 
 "TEST: Finished"
