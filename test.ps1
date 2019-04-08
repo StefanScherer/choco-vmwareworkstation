@@ -18,17 +18,20 @@ if ($spec.package.metadata.version.CompareTo($version)) {
   Write-Error "FAIL: Wrong version in nuspec file!"
 }
 
-"TEST: Package should contain only install script"
+"TEST: Package should contain install/uninstall scripts"
 Add-Type -assembly "system.io.compression.filesystem"
 $zip = [IO.Compression.ZipFile]::OpenRead("$pwd\vmwareworkstation.$version.nupkg")
 # Write-Host $zip.Entries.FullName
 Write-Host $zip.Entries.Count
-if ($zip.Entries.Count -ne 5) {
+if ($zip.Entries.Count -ne 6) {
   Write-Error "FAIL: Wrong count in nupkg!"
 }
 $zip.Dispose()
 
 "TEST: Installation of package should work"
-. choco install -y vmwareworkstation -source . -version $version
+. choco install -y vmwareworkstation -source . --version $version
+
+"TEST: Uninstallation of package should work"
+. choco uninstall -y vmwareworkstation -source .
 
 "TEST: Finished"
