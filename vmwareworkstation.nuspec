@@ -1,20 +1,21 @@
-<?xml version="1.0"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>vmwareworkstation</id>
-    <version>15.0.4</version>
+    <version>14.1.4</version>
     <title>VMware Workstation</title>
     <authors>VMware, Inc.</authors>
-    <owners>Stefan Scherer</owners>
+    <owners>Stefan Scherer virtualex</owners>
     <licenseUrl>https://www.vmware.com/download/eula/universal_eula.html</licenseUrl>
     <projectUrl>https://www.vmware.com/products/workstation/</projectUrl>
-    <iconUrl>https://upload.wikimedia.org/wikipedia/commons/6/62/VMware_Workstation_version_8.0_icon.png</iconUrl>
+    <iconUrl>https://cdn.staticaly.com/gh/StefanScherer/choco-vmwareworkstation/e8c7500a/icon/vmworkstation.png</iconUrl>
     <packageSourceUrl>https://github.com/StefanScherer/choco-vmwareworkstation</packageSourceUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <description>VMware Workstation enables technical professionals to develop, test, demonstrate, and deploy software by running multiple x86-based Windows, Linux, and other operating systems simultaneously on the same PC.</description>
     <summary>VMware Workstation - Desktop virtualization software</summary>
-    <releaseNotes>https://docs.vmware.com/en/VMware-Workstation-Pro/15/rn/workstation-1503-release-notes.html</releaseNotes>
-    <copyright>Copyright © 2015 VMware, Inc. All rights reserved.</copyright>
+    <releaseNotes>https://docs.vmware.com/en/VMware-Workstation-Pro/14/rn/workstation-1414-release-notes.html</releaseNotes>
+    <copyright>Copyright © 2018 VMware, Inc. All rights reserved.</copyright>
     <tags>vmware workstation virtual machine virtualization</tags>
   </metadata>
   <files>
