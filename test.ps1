@@ -18,7 +18,7 @@ if ($spec.package.metadata.version.CompareTo($version)) {
   Write-Error "FAIL: Wrong version in nuspec file!"
 }
 
-"TEST: Package should contain only install script"
+"TEST: Package should contain install/uninstall scripts"
 Add-Type -assembly "system.io.compression.filesystem"
 $zip = [IO.Compression.ZipFile]::OpenRead("$pwd\vmwareworkstation.$version.nupkg")
 # Write-Host $zip.Entries.FullName
