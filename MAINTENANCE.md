@@ -86,7 +86,7 @@ to verify if it is installed.
 Run the following commands to verify uninstallation works:
 
     choco uninstall vmwareworkstation
-    vmwareworkstation // shouldn't work
+    vmwareworkstation // should work
 
 See the script `test.ps1` for all tests that run on AppVeyor.
 
