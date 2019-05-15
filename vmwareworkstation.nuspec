@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>vmwareworkstation</id>
-    <version>15.0.4.20190408</version>
+    <version>15.1.0.13591040</version>
     <title>VMware Workstation</title>
     <authors>VMware, Inc.</authors>
     <owners>Stefan Scherer virtualex</owners>
@@ -12,9 +12,12 @@
     <iconUrl>https://cdn.staticaly.com/gh/StefanScherer/choco-vmwareworkstation/ea948ee8/icon/vmworkstation.png</iconUrl>
     <packageSourceUrl>https://github.com/StefanScherer/choco-vmwareworkstation</packageSourceUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <description>VMware Workstation enables technical professionals to develop, test, demonstrate, and deploy software by running multiple x86-based Windows, Linux, and other operating systems simultaneously on the same PC.</description>
+    <description>
+      VMware Workstation enables technical professionals to develop, test, demonstrate, and deploy software by running multiple x86-based Windows, Linux, and other operating systems simultaneously on the same PC.
+      ![ChocolateyTestEnvInstall](https://cdn.staticaly.com/gh/StefanScherer/choco-vmwareworkstation/15.1.0.13591040/img/vmw_ws_1510.png)
+    </description>
     <summary>VMware Workstation - Desktop virtualization software</summary>
-    <releaseNotes>https://docs.vmware.com/en/VMware-Workstation-Pro/15/rn/workstation-1504-release-notes.html</releaseNotes>
+    <releaseNotes>https://docs.vmware.com/en/VMware-Workstation-Pro/15/rn/VMware-Workstation-151-Pro-Release-Notes.html</releaseNotes>
     <copyright>Copyright © 2019 VMware, Inc. All rights reserved.</copyright>
     <tags>vmware workstation virtual machine virtualization</tags>
   </metadata>
