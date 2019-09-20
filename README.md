@@ -8,7 +8,7 @@ Chocolatey package for VMware Workstation 15.x.
 
 VMware Workstation is a commercial product. This package installs the software. On the first start you have to enter your product license to be able to use it.
 
-![ChocoTestEnvInstall](https://cdn.staticaly.com/gh/StefanScherer/choco-vmwareworkstation/45541c1e/img/vmw_ws_1510.png)
+![ChocoTestEnvInstall](https://rawcdn.githack.com/StefanScherer/choco-vmwareworkstation/eef323d45d7b90fddd1bcb76401492ebcf15746b/img/vmw_ws_1550.png)
 
 ## Download link
 
