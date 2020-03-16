@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>vmwareworkstation</id>
-    <version>15.5.1.15018445</version>
+    <version>15.5.2.15785246</version>
     <title>VMware Workstation</title>
     <authors>VMware, Inc.</authors>
     <owners>Stefan Scherer virtualex</owners>
@@ -16,8 +16,8 @@
       VMware Workstation Pro enables technical professionals to develop, test, demonstrate, and deploy software by running multiple x86-based Windows, Linux, and other operating systems simultaneously on the same PC.
     </description>
     <summary>VMware Workstation Pro - Desktop virtualization software</summary>
-    <releaseNotes>https://docs.vmware.com/en/VMware-Workstation-Pro/15.5/rn/VMware-Workstation-1551-Pro-Release-Notes.html</releaseNotes>
-    <copyright>Copyright © 2019 VMware, Inc. All rights reserved.</copyright>
+    <releaseNotes>https://docs.vmware.com/en/VMware-Workstation-Pro/15.5/rn/VMware-Workstation-1552-Pro-Release-Notes.html</releaseNotes>
+    <copyright>Copyright © 2020 VMware, Inc. All rights reserved.</copyright>
     <tags>vmware workstation virtual machine virtualization</tags>
     <dependencies>
       <dependency id="vcredist2015" />
