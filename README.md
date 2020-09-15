@@ -4,11 +4,11 @@
 [![Package downloads count](https://img.shields.io/chocolatey/dt/vmwareworkstation.svg)](https://chocolatey.org/packages/vmwareworkstation)
 [![Build status](https://img.shields.io/appveyor/ci/StefanScherer/choco-vmwareworkstation/master.svg?logo=appveyor)](https://ci.appveyor.com/project/StefanScherer/choco-vmwareworkstation/branch/master)
 
-Chocolatey package for VMware Workstation 15.x.
+Chocolatey package for VMware Workstation Pro.
 
 VMware Workstation is a commercial product. This package installs the software. On the first start you have to enter your product license to be able to use it.
 
-![ChocoTestEnvInstall](https://rawcdn.githack.com/StefanScherer/choco-vmwareworkstation/6087c0b8670b68c1b151dac1cb44c4de197da39e/img/vmw_ws_test.png)
+![ChocoTestEnvInstall](https://rawcdn.githack.com/StefanScherer/choco-vmwareworkstation/9eee1dc8c48ee44f7c4e6447abad960220f66c4c/img/vmw_ws_test.png)
 
 ## Download link
 
@@ -17,7 +17,7 @@ Open http://www.vmware.com/go/try-workstation-en and capture the download link.
 
 ## Unattended installation
 
-https://docs.vmware.com/en/VMware-Workstation-Pro/15.0/com.vmware.ws.using.doc/GUID-F3F1A8B9-D298-4461-BEAB-185CE3E158ED.html
+https://docs.vmware.com/en/VMware-Workstation-Pro/16.0/com.vmware.ws.using.doc/GUID-F3F1A8B9-D298-4461-BEAB-185CE3E158ED.html
 
 ## Maintenance
 
