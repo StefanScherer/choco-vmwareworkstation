@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>vmwareworkstation</id>
-    <version>15.5.7.17171714</version>
+    <version>16.1.0.17198959</version>
     <title>VMware Workstation</title>
     <authors>VMware, Inc.</authors>
     <owners>Stefan Scherer virtualex</owners>
@@ -18,7 +18,7 @@
 	  Please see the [**README**](https://github.com/StefanScherer/choco-vmwareworkstation) for chocolatey-test-environment installation.
     </description>
     <summary>VMware Workstation Pro - Desktop virtualization software</summary>
-    <releaseNotes>https://docs.vmware.com/en/VMware-Workstation-Pro/15.5/rn/VMware-Workstation-1557-Pro-Release-Notes.html</releaseNotes>
+    <releaseNotes>https://docs.vmware.com/en/VMware-Workstation-Pro/16.1.0/rn/VMware-Workstation-1610-Pro-Release-Notes.html</releaseNotes>
     <copyright>Copyright © 2020 VMware, Inc. All rights reserved.</copyright>
     <tags>vmware workstation virtual machine virtualization</tags>
     <dependencies>
