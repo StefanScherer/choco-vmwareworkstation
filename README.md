@@ -1,8 +1,9 @@
 # vmwareworkstation
 
+**This repo is no longer maintained.** Thanks to [@virtualex-itv](https://github.com/virtualex-itv) for automating the package updates. The new package source is here: https://github.com/virtualex-itv/chocolatey-packages/tree/master/automatic/vmwareworkstation
+
 [![Latest version released](https://img.shields.io/chocolatey/v/vmwareworkstation.svg)](https://chocolatey.org/packages/vmwareworkstation)
 [![Package downloads count](https://img.shields.io/chocolatey/dt/vmwareworkstation.svg)](https://chocolatey.org/packages/vmwareworkstation)
-[![Build status](https://img.shields.io/appveyor/ci/StefanScherer/choco-vmwareworkstation/master.svg?logo=appveyor)](https://ci.appveyor.com/project/StefanScherer/choco-vmwareworkstation/branch/master)
 
 Chocolatey package for VMware Workstation Pro.
 
@@ -18,20 +19,3 @@ Open http://www.vmware.com/go/try-workstation-en and capture the download link.
 ## Unattended installation
 
 https://docs.vmware.com/en/VMware-Workstation-Pro/16.0/com.vmware.ws.using.doc/GUID-F3F1A8B9-D298-4461-BEAB-185CE3E158ED.html
-
-## Maintenance
-
-To build and test the chocolatey package from a Mac use the two scripts provided.
-
-Build the chocolatey package with a Windows Docker machine:
-
-```
-dm 2016-box
-./build.sh
-```
-
-Run a test installation in a Windows container:
-
-```
-./test.sh
-```
